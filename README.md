@@ -52,3 +52,27 @@ hexo deploy     // 上传
 ```
 
 在浏览器中输入 `http://yourgithubname.github.io` 就可以看到你的个人博客了！
+
+### 1.7、一些其他配置
+#### 搜索功能
+```
+npm install -S hexo-generator-json-content
+```
+然后
+
+```
+search:
+    insight: true
+```
+
+#### readme
+- 首先在source文件夹下建立一个 `README.md`
+- 修改 `_config.yml`
+
+```
+skip_render: README.md
+```
+
+## 二、绑定个人域名
+### 2.1、购买一个域名
+### 2.2、域名解析
